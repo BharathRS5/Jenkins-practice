@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                error 'deploying is failed'
+                // error 'deploying is failed'
             }
         }
      }
