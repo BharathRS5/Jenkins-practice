@@ -26,9 +26,7 @@ pipeline {
             }
         }
      }
-}
-
-post { 
+     post { 
         always { 
             echo 'I will always run whether job is success or not'
         }
@@ -39,4 +37,7 @@ post {
             echo 'I will run when failure'
         }
     }
+}
+
+
 
