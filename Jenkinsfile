@@ -10,8 +10,8 @@ pipeline {
             steps {
                 echo 'Building..'
               sh '''
-                ls -ltr
                 pwd
+                ls -ltr
               '''
             }
         }
